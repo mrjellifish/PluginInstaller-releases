@@ -1,9 +1,9 @@
 # Plugin Installer
 
-[Download Plugin Installer 0.1.0 beta](https://github.com/mrjellifish/PluginInstaller-releases/releases/tag/v0.1.0-beta.1).
+[Download Plugin Installer 0.1.1 beta](https://github.com/mrjellifish/PluginInstaller-releases/releases/tag/v0.1.1-beta.1).
 
-- [Mac — Intel and Apple silicon](https://github.com/mrjellifish/PluginInstaller-releases/releases/download/v0.1.0-beta.1/PluginInstaller-0.1.0-macOS-universal.zip): extract the ZIP and open Plugin Installer.app.
-- [Windows x64](https://github.com/mrjellifish/PluginInstaller-releases/releases/download/v0.1.0-beta.1/PluginInstaller-0.1.0-Windows-x64.exe): run the EXE.
+- [Mac — Intel and Apple silicon](https://github.com/mrjellifish/PluginInstaller-releases/releases/download/v0.1.1-beta.1/PluginInstaller-0.1.1-macOS-universal.zip): extract the ZIP and open Plugin Installer.app.
+- [Windows x64](https://github.com/mrjellifish/PluginInstaller-releases/releases/download/v0.1.1-beta.1/PluginInstaller-0.1.1-Windows-x64.exe): run the EXE.
 
 Choose plugins from the shared signed FAVE/TUN/LEV catalogue. Their individual installers handle folder choices, backups, permissions and loaded-plugin checks. Save and close your DAW when requested; it is never force-quit. No permanent desktop hub, account, startup item or background service is installed.
 
