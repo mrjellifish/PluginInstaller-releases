@@ -1,7 +1,12 @@
 # Plugin Installer
 
-Run-on-demand installer for the audio plugin family. Browse the same signed catalogue used inside FAVE, TUN and LEV, then download/install supported products. There is no permanent hub, login, startup item or background service.
+[Download Plugin Installer 0.1.0 beta](https://github.com/mrjellifish/PluginInstaller-releases/releases/tag/v0.1.0-beta.1).
 
-Platform-specific beta downloads will appear in [Releases](https://github.com/mrjellifish/PluginInstaller-releases/releases) after validation. Mac and Windows use different files. Product installers handle their own folder choices, backup and loaded-plugin checks. TUN/LEV are currently Apple silicon Mac only; FAVE supports Windows x64 and Intel/Apple silicon Macs.
+- [Mac — Intel and Apple silicon](https://github.com/mrjellifish/PluginInstaller-releases/releases/download/v0.1.0-beta.1/PluginInstaller-0.1.0-macOS-universal.zip): extract the ZIP and open Plugin Installer.app.
+- [Windows x64](https://github.com/mrjellifish/PluginInstaller-releases/releases/download/v0.1.0-beta.1/PluginInstaller-0.1.0-Windows-x64.exe): run the EXE.
 
-Private implementation: mrjellifish/PluginKit. The public catalogue endpoint remains compatible with installed plugins. Publisher certificates/notarization are not configured yet.
+Choose plugins from the shared signed FAVE/TUN/LEV catalogue. Their individual installers handle folder choices, backups, permissions and loaded-plugin checks. Save and close your DAW when requested; it is never force-quit. No permanent desktop hub, account, startup item or background service is installed.
+
+FAVE supports both platforms. TUN and LEV currently support Apple silicon Mac only; unsupported downloads are disabled. Inside the plugins, the title logo opens the same catalogue and appearance controls.
+
+This first beta delegates to product installers; it does not yet provide combined installation transactions or automatic cache cleanup. Windows publisher certificates and Mac Developer ID/notarization are not configured. Signed catalogue/package verification is separate from OS publisher trust. Source-code archives are not installers.
